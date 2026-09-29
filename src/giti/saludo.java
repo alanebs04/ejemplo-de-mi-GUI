@@ -45,7 +45,9 @@ public class saludo extends JFrame {
 		JButton btnNewButton = new JButton("saludar");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(null, "hola desde mi repocitorio eclipse");			}
+				JOptionPane.showMessageDialog(null, "hola desde mi repocitorio eclipse");	
+				JOptionPane.showMessageDialog(null, "hola desde mi repocitorio eclipse");
+				}
 		});
 		btnNewButton.setBounds(192, 58, 84, 20);
 		contentPane.add(btnNewButton);
