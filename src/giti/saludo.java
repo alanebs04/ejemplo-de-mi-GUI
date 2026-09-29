@@ -46,11 +46,20 @@ public class saludo extends JFrame {
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane.showMessageDialog(null, "hola desde mi repocitorio eclipse");	
-				JOptionPane.showMessageDialog(null, "hola desde mi repocitorio eclipse");
+				
 				}
 		});
 		btnNewButton.setBounds(192, 58, 84, 20);
 		contentPane.add(btnNewButton);
+		
+		JButton btnNewButton_1 = new JButton("saludo2");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null,"hola desde mi rama");
+			}
+		});
+		btnNewButton_1.setBounds(109, 113, 84, 20);
+		contentPane.add(btnNewButton_1);
 
 	}
 }
